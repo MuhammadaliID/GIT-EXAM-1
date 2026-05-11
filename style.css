@@ -41,7 +41,20 @@
     margin-left: 100px;
 }
 
-
+.analis{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    width: 500px;
+}
+.get{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 80px;
+    align-items: center;
+}
 
 
 @media (max-width: 510px) {
@@ -84,6 +97,12 @@ margin-left: 90px;
 .qq{
     display: flex;
     text-align: center;
+    margin: auto;
+}
+.analis{
+    text-align: center;
+}
+.learn{
     margin: auto;
 }
 }
