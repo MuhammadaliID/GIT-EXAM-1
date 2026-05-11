@@ -1,0 +1,89 @@
+*{
+    margin: 0px;
+    font-family: sans-serif;
+    list-style: none;
+    box-sizing: border-box;
+}
+.minioc{
+    display: none;
+}
+.ocean{
+    height: 550px;
+ 
+}
+.footer{
+    display: flex;
+    align-items: center;
+   padding-top: 30px;
+   padding-left: 100px;
+   gap: 50px;
+}
+.BIG1{
+ background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)) , url(./uae-4-2048x1367\ 2.png);
+    height: 600px;
+}
+.come{
+    margin-left: 300px;
+}
+.text{
+    margin-left: 200px;
+    
+}
+.q{
+    display: none;
+}
+.IT1{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    width: 550px;
+    margin-top: 70px;
+    margin-left: 100px;
+}
+
+
+
+
+@media (max-width: 510px) {
+    .ocean{
+        display: none;
+    }
+.minioc{
+    display: none;
+    width: 100%;
+    height: 550px;
+}
+.text{
+    display: none !important;
+}
+.footer{
+    padding-left: 20px;
+}
+.come{
+    margin-left: 160px;
+}
+.q{
+    display: block;
+    margin-left: -30px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+.IT{
+font-size: 40px !important;
+width: 380px;
+text-align: center;
+margin-left: 90px;
+}
+.IT1{
+    text-align: center;
+   margin-left: 0px;
+
+
+}
+.qq{
+    display: flex;
+    text-align: center;
+    margin: auto;
+}
+}
