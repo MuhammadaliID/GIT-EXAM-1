@@ -124,7 +124,15 @@ justify-content: center;
 margin-top: -400px;
 }
 
-
+.video{
+    width: 80%;
+   display: flex;
+   margin: auto;
+    margin-top: 50px;
+   }
+   .video1{
+    display: none;
+   }
 
 
 
@@ -213,5 +221,15 @@ font-size: 30px !important;
 }
 .e{
     width: 550px !important;
+}
+.video{
+    display: none;
+}
+.video1{
+    display: block;
+     width: 80%;
+   display: flex;
+   margin: auto;
+    margin-top: 50px;
 }
 }
