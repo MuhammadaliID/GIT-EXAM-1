@@ -217,6 +217,14 @@ margin-top: -400px;
     display: none;
 }
 
+.BIG4{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+}
+
 
 @media (max-width: 510px) {
     
@@ -359,4 +367,5 @@ font-size: 30px !important;
     margin-top: -550px !important;
     text-align: center;
 }
+
 }
