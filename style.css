@@ -134,7 +134,82 @@ margin-top: -400px;
     display: none;
    }
 
+.bx1{
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+}
 
+.md1,
+.md2,
+.md3,
+.md4{
+    background-color: white;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    overflow: hidden;
+}
+
+.hd1,
+.rw2,
+.rw3,
+.rw4{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+}
+
+.tt1,
+.tt2,
+.tt3,
+.tt4{
+    font-size: 28px;
+    margin: 0;
+    color: black;
+}
+
+.bl1,
+.bl2,
+.bl3,
+.bl4{
+    color: #1f7ae0;
+    margin-right: 10px;
+}
+
+.bt1,
+.bt2,
+.bt3,
+.bt4{
+    width: 45px;
+    height: 45px;
+    border: none;
+    border-radius: 50%;
+    background-color: #1f7ae0;
+    color: white;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.ct1{
+    border-top: 1px solid #e5e5e5;
+}
+
+.tx1{
+    margin: 0;
+    padding: 22px 25px;
+    border-bottom: 1px solid #e5e5e5;
+    font-size: 22px;
+    color: gray;
+}
+
+.ln1{
+    padding: 22px 25px;
+    font-size: 22px;
+    color: #1f7ae0;
+    margin: 0;
+}
 
 
 
@@ -232,4 +307,36 @@ font-size: 30px !important;
    margin: auto;
     margin-top: 50px;
 }
+
+  .hd1,
+    .rw2,
+    .rw3,
+    .rw4{
+        padding: 18px;
+    }
+
+    .tt1,
+    .tt2,
+    .tt3,
+    .tt4{
+        font-size: 18px;
+        line-height: 1.5;
+    }
+
+    .tx1,
+    .ln1{
+        font-size: 16px;
+        padding: 16px 18px;
+    }
+
+    .bt1,
+    .bt2,
+    .bt3,
+    .bt4{
+        width: 38px;
+        height: 38px;
+        font-size: 18px;
+    }
+
+
 }
