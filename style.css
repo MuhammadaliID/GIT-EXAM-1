@@ -3,6 +3,7 @@
     font-family: sans-serif;
     list-style: none;
     box-sizing: border-box;
+   
 }
 .minioc{
     display: none;
@@ -100,10 +101,28 @@
    padding-left: 350px;
     
 }
+.nation{
+align-items: center;    
+}
 
+.earth1{
+    display: none;
+}
+.earth{
+    display: flex;
+    margin: auto;
+    margin-top: 50px;
+    margin-left: 200px;
+}
 
-
-
+.BIG2{
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+gap: 30px;
+justify-content: center;
+margin-top: -400px;
+}
 
 
 
@@ -112,12 +131,15 @@
 
 
 @media (max-width: 510px) {
+    
+
     .ocean{
-        display: none;
+    display: block;   
     }
+
 .minioc{
-    display: none;
-    width: 100%;
+   
+    
     height: 550px;
 }
 .text{
@@ -127,7 +149,7 @@
     padding-left: 20px;
 }
 .come{
-    margin-left: 160px;
+    margin-left: 130px;
 }
 .q{
     display: block;
@@ -168,5 +190,25 @@ font-size: 30px !important;
 }
 .w0{
     width:450px !important;
+}
+.nation{
+    width: 100% !important;
+    gap: 0px !important;
+    flex-direction: column;
+     row-gap: 30px !important; 
+}
+.earth{
+    display: none;
+}
+.earth1{
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+}
+.number{
+    width: 80% !important;
+}
+.BIG2{
+    margin-top: -250px;
 }
 }
