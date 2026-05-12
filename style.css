@@ -328,6 +328,26 @@ display: none !important;
     gap: 30px;
     margin-top: 40px;
 }
+
+.BIG9{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)) , url(./uae-4-2048x1367\ 3\ \(1\).png);
+    height: 100px;
+    padding-top: 30px;
+    padding-left: 100px;
+margin-top: 50px;
+}
+.footer0{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.xx{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: white;
+    margin-left: 100px;
+}
 @media (max-width: 510px) {
     
 
@@ -491,5 +511,12 @@ font-size: 30px !important;
 .zz{
     width: 380px;
     padding-top: 100px;
+}
+.xx{
+    display: none !important;
+}
+.BIG9{
+    height: 150PX;
+    padding-left: 20px;
 }
 }
