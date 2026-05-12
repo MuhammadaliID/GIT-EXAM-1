@@ -296,6 +296,38 @@ display: none !important;
     justify-content: center;
     margin-top: 40px;
 }
+
+.our1{
+    display: none !important;
+}
+.BIG7{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)) , url(./Rectangle\ 1992.png);
+    height: 500px;
+    margin-top: 40px;
+}
+.zz{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    width: 600px;
+    text-align: center;
+    margin: auto;
+    padding-top: 170px;
+}
+.mena{
+    box-shadow: 0px 0px 5px;
+    width: 420px;
+    padding: 10px;
+    text-align: center;
+}
+
+.BIG8{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 40px;
+}
 @media (max-width: 510px) {
     
 
@@ -450,5 +482,14 @@ font-size: 30px !important;
     display: block !important;
     width: 100%;
 }
-
+.our{
+    display: none !important;
+}
+.our1{
+    display: block !important;
+}
+.zz{
+    width: 380px;
+    padding-top: 100px;
+}
 }
