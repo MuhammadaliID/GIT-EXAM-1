@@ -288,6 +288,14 @@ button{
 .people1{
 display: none !important;
 }
+
+.BIG6{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 40px;
+}
 @media (max-width: 510px) {
     
 
@@ -442,4 +450,5 @@ font-size: 30px !important;
     display: block !important;
     width: 100%;
 }
+
 }
