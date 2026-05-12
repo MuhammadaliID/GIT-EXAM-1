@@ -285,8 +285,9 @@ button{
     display: block;
     margin: auto;
 }
-
-
+.people1{
+display: none !important;
+}
 @media (max-width: 510px) {
     
 
@@ -428,5 +429,17 @@ font-size: 30px !important;
     margin-top: -550px !important;
     
 }
-
+.list{
+    width: 90% !important;
+}
+.innoma{
+    text-align: center;
+}
+.people{
+    display: none !important;
+}
+.people1{
+    display: block !important;
+    width: 100%;
+}
 }
